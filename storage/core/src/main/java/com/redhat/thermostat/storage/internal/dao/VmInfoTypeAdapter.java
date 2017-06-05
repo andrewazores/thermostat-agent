@@ -151,7 +151,10 @@ public class VmInfoTypeAdapter extends TypeAdapter<List<VmInfo>> {
     
     private static void writeLong(JsonWriter out, long value) throws IOException {
         // Write MongoDB representation of a Long
-        out.value(value);
+        out.beginObject();
+        out.name(TYPE_LONG);
+        out.value(String.valueOf(value));
+        out.endObject();
     }
 
     @Override
