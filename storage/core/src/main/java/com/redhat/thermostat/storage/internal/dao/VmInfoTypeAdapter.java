@@ -61,7 +61,7 @@ public class VmInfoTypeAdapter extends TypeAdapter<List<VmInfo>> {
     private static final String VM_NAME = "jvmName";
     private static final String VM_INFO = "jvmInfo";
     private static final String VM_VERSION = "jvmVersion";
-    private static final String ENVIRONMENT_AS_ARRAY = "environmentAsArray";
+    private static final String ENVIRONMENT_AS_ARRAY = "environment";
     private static final String START_TIME_STAMP = "startTime";
     private static final String STOP_TIME_STAMP = "stopTime";
     private static final String UID = "uid";
